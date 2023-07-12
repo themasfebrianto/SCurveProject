@@ -7,7 +7,7 @@ namespace SCurveProject.Entities
     {
         [BsonId]
         [BsonRepresentation(BsonType.ObjectId)]
-        public string Id { get; set; }
+        public string Id { get; set; } = null!;
 
         public string Username { get; set; } = null!;
 
