@@ -1,3 +1,5 @@
+#base setting git ignore ASP.NET
+
 appsettings.Development.json
 bin/**
 obj/**
